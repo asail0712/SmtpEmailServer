@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpEmailServer", "SmtpEmailServer\SmtpEmailServer.csproj", "{44822556-3279-4958-82E3-34EFBE85B769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{782F6804-243E-4FBA-B048-13B33C804D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B191BA8A-E06B-494F-88B4-B811360FA600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{6E5616A2-954B-46FD-AC3D-B64542311A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{A13C1874-BFB3-462A-90E2-A4CFB7118521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AetherCore", "AetherCore\AetherCore.csproj", "{38F83C2B-E134-6678-7AA6-EB1865875AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AetherCoreTemplates", "AetherCoreTemplates\AetherCoreTemplates.csproj", "{1173887B-E68D-957B-3DEA-82C9865B52DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44822556-3279-4958-82E3-34EFBE85B769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44822556-3279-4958-82E3-34EFBE85B769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44822556-3279-4958-82E3-34EFBE85B769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44822556-3279-4958-82E3-34EFBE85B769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782F6804-243E-4FBA-B048-13B33C804D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782F6804-243E-4FBA-B048-13B33C804D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782F6804-243E-4FBA-B048-13B33C804D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782F6804-243E-4FBA-B048-13B33C804D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B191BA8A-E06B-494F-88B4-B811360FA600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B191BA8A-E06B-494F-88B4-B811360FA600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B191BA8A-E06B-494F-88B4-B811360FA600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B191BA8A-E06B-494F-88B4-B811360FA600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5616A2-954B-46FD-AC3D-B64542311A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5616A2-954B-46FD-AC3D-B64542311A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5616A2-954B-46FD-AC3D-B64542311A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5616A2-954B-46FD-AC3D-B64542311A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13C1874-BFB3-462A-90E2-A4CFB7118521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13C1874-BFB3-462A-90E2-A4CFB7118521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13C1874-BFB3-462A-90E2-A4CFB7118521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13C1874-BFB3-462A-90E2-A4CFB7118521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F83C2B-E134-6678-7AA6-EB1865875AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F83C2B-E134-6678-7AA6-EB1865875AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F83C2B-E134-6678-7AA6-EB1865875AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F83C2B-E134-6678-7AA6-EB1865875AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1173887B-E68D-957B-3DEA-82C9865B52DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1173887B-E68D-957B-3DEA-82C9865B52DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1173887B-E68D-957B-3DEA-82C9865B52DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1173887B-E68D-957B-3DEA-82C9865B52DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C9F657-40AA-4B90-927B-8A6023C280E1}
+	EndGlobalSection
+EndGlobal
