@@ -20,7 +20,7 @@ namespace SmtpEmailServer.Controllers
 
         }
 
-        [HttpGet("SendMail")]
+        [HttpPost("SendMail")]
         [CommonSummary("寄出郵件")]
         [Authorize(AuthenticationSchemes = "ServiceJwt")]
         public async Task<IActionResult> SendMail([FromBody] MailMessagesRequest request)
