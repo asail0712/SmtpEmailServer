@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\Service\Service.csproj" />
-    <ProjectReference Include="..\AetherCore\AetherCore.csproj" />
+    <ProjectReference Include="..\..\_Shared\AetherCore\AetherCore.csproj" />
   </ItemGroup>
   
 </Project>
