@@ -31,7 +31,7 @@ namespace Service
             _smtpEmailSender        = smtpEmailSender;
         }
 
-        public async Task<bool> SendMail(MailMessagesRequest request)
+        public async Task<bool> SendMail(MailMessagesRequest request, string serviceId)
         {
             MailGroupsEntity entity = await _mailGroupsRepository.GetAsync(request.SendGroup);
 
@@ -67,6 +67,7 @@ namespace Service
             logEntity.ToEmail       = request.ToMail;
             logEntity.Subject       = request.Subject;
             logEntity.SendGroup     = request.SendGroup;
+            logEntity.ServiceId     = serviceId;
 
             try
             {

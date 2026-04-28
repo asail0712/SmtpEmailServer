@@ -5,6 +5,6 @@ namespace Service.Interface
 {
     public interface IMailMessagesService : IService<MailMessagesRequest, MailMessagesResponse>
     {
-        Task<bool> SendMail(MailMessagesRequest request);
+        Task<bool> SendMail(MailMessagesRequest request, string serviceId);
     }
 }

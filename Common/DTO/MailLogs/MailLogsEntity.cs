@@ -11,6 +11,7 @@ namespace Common.DTO.MailLogs
         public string ToEmail           { get; set; }   = string.Empty;
         public string Subject           { get; set; }   = string.Empty;
         public string SendGroup         { get; set; }   = string.Empty;
+        public string ServiceId         { get; set; }   = string.Empty;
         public SendResult SendResult    { get; set; }   = SendResult.Failure;
         public string ResultDesc        { get; set; }   = string.Empty;
         public MailLogsEntity() 

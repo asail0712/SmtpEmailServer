@@ -25,7 +25,8 @@ namespace SmtpEmailServer.Controllers
         [Authorize(AuthenticationSchemes = "ServiceJwt")]
         public async Task<IActionResult> SendMail([FromBody] MailMessagesRequest request)
         {
-            var result = await _service.SendMail(request);
+            var serviceId = User.Claims.FirstOrDefault(c => c.Type == "ServiceId")?.Value ?? string.Empty;
+            var result = await _service.SendMail(request, serviceId);
 
             return Ok(result);
         }
