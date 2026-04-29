@@ -9,11 +9,12 @@ namespace SmtpEmailServer.Controllers
     [ApiController]
     [Route("[controller]")]
     [CrudSummary("寄送紀錄")]
+    [SwaggerApi("BackStage", CrudOperations = CrudOperation.ReadAll | CrudOperation.Read)]
     [CrudAuthorize("AdminJwt")]
     public class MailLogsController : GenericController<MailLogsRequest, MailLogsResponse, IMailLogsService>
     {
         public MailLogsController(IMailLogsService service)
-            : base(service, CrudOperation.ReadAll & CrudOperation.Read)
+            : base(service, CrudOperation.ReadAll | CrudOperation.Read)
         {
 
         }

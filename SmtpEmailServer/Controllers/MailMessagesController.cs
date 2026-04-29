@@ -22,6 +22,7 @@ namespace SmtpEmailServer.Controllers
 
         [HttpPost("SendMail")]
         [CommonSummary("寄出郵件")]
+        [SwaggerApi("App")]
         [Authorize(AuthenticationSchemes = "ServiceJwt")]
         public async Task<IActionResult> SendMail([FromBody] MailMessagesRequest request)
         {

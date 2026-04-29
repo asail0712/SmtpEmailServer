@@ -9,6 +9,7 @@ namespace SmtpEmailServer.Controllers
     [ApiController]
     [Route("[controller]")]
     [CrudSummary("郵件寄送群組")]
+    [SwaggerApi("BackStage")]
     //[CrudAuthorize("AdminJwt")]
     public class MailGroupsController : GenericController<MailGroupsRequest, MailGroupsResponse, IMailGroupsService>
     {
